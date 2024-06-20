@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello! My name is Carson Lau.</p>
+        </section>
+
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Here you will find everything you need to know about me!</p>
+            <a href="resume.pdf" class="skibidi" download>Download My Resume (Coming in a few years)</a>
+            <h2>Get to know me!</h2>
+            <p class="about">Hi there! I'm Carson Lau, an aspiring novice programmer with a passion for coding and technology. I believe in the power of programming to solve problems and create innovative solutions.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Scratch</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section class="gyat">
+            <h3 id="DarkModetext">Dark Mode is OFF</h3>
+            <button onclick="darkMode()">Dark Mode</button>
+            <button onclick="lightMode()">Light Mode</button>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>JS Course</h3>
+                <p>Learn basic to advanced JS</p>
+                <a href="https://github.com/thegoodpart2/thegoodpart2.github.io" target="_blank">Source Code</a>
+            </div>
+            <div class="project">
+                <h3>Dark Mode</h3>
+                <p>Some code for basic dark mode</p>
+                <a href="https://replit.com/@CarsonLau6/darkmode?v=1#index.html" target="_blank">Source Code</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="https://script.google.com/macros/s/AKfycbznIerLegS3mz0QyRQiLDhW-z4ApPxCWE75fBngCPVU1m2BB6ZX0DASdy_8ea3kQ-oLRQ/exec" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/carson-lau-3b5b05283/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/thegoodpart2" target="_blank">GitHub</a>
+                <p>My email: crsnlau@gmail.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Carson Lau. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
