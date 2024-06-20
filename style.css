@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+footer {
+  position: static;
+}
+
+nav {
+  list-style: none;
+  padding: 0;
+  margin: 0 1em;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+section {
+  padding: 5% 2em;
+  margin: 2em 0;
+}
+
+.project, form input, form textarea {
+  border: 1px solid #ccc;
+  display: block;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.social-links a {
+  margin-right: 1em;
+}
+
+#home {
+  color: white;
+  background-image: url("https://th.bing.com/th/id/OIP.1A38RVXtxDTwL2aIBjsaawAAAA?rs=1&pid=ImgDetMain");
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-size: 150%;
+  padding-bottom: 3.5em;
+}
+
+#home h1, #home p {
+  margin: 0;
+}
+
+#home h1 {
+  font-size: 2em;
+  padding-bottom: 0.3em;
+}
+
+#home p {
+  font-size: 1em;
+}
+
+#about {
+  text-align: center;
+  margin-top: -3em;
+  font-size: 120%;
+  background-image: url("https://wallpapers.com/images/hd/dark-angel-quote-84qxw46avcz1rpxo.jpg");
+  color: white;
+  padding: 2em 1em;
+}
+
+h2 {
+  margin-top: 3em;
+  text-align: left;
+}
+
+.about {
+  text-align: left;
+  line-height: 2;
+  padding: 0 2em;
+}
+
+.about p {
+  margin-top: 0;
+}
+
+.skibidi {
+  color: skyblue;
+}
+
+.skibidi:hover {
+  color: #FFD700;
+}
+
+#skills {
+  text-align: center;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+#skills h2 {
+  margin-top: 0;
+  padding-top: 1em;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills li {
+  background: #fff;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode {
+  background-color: #1b1b32;
+  color: #f5f6f7;
+}
+
+.dark-mode #skills {
+  background-color: #2a2a40;
+  color: #f5f6f7;
+}
+
+.dark-mode #skills li {
+  background: #333;
+  border: 1px solid #555;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.gyat {
+  text-align: center;
+}
+
+.gyat button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  margin-top: 1em;
+}
