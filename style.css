@@ -1,3 +1,14 @@
+body,
+.card,
+.stats div,
+.navbar,
+input,
+textarea {
+    transition: background .4s ease, 
+                color .4s ease, 
+                border .4s ease;
+}
+
 * {
     margin: 0;
     padding: 0;
