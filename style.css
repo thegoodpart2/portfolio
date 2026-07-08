@@ -1,14 +1,3 @@
-body,
-.card,
-.stats div,
-.navbar,
-input,
-textarea {
-    transition: background .4s ease, 
-                color .4s ease, 
-                border .4s ease;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -170,9 +159,7 @@ h1 span {
 }
 
 
-/* =========================
-   BUTTONS
-========================= */
+/* BUTTONS */
 
 .btn {
     display: inline-block;
@@ -249,7 +236,6 @@ h2::after {
 section p {
     color:#94a3b8;
 }
-
 
 /*
 STATS*/
@@ -328,6 +314,31 @@ CARDS*/
     font-weight:600;
 }
 
+nav a,
+.card a {
+    position: relative;
+}
+
+nav a::after,
+.card a::after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #38bdf8;
+    transition: .3s ease;
+}
+
+nav a:hover::after,
+.card a:hover::after {
+    width: 100%;
+}
+
+#projects > p {
+    margin-bottom: 40px;
+}
 
 /*
 CONTACT FORM*/
@@ -430,4 +441,16 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* MISC */
+body,
+.card,
+.stats div,
+.navbar,
+input,
+textarea {
+    transition: background .4s ease, 
+                color .4s ease, 
+                border .4s ease;
 }
